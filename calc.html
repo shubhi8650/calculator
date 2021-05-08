@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calc.css">
+    <script src="./calc.js" type="text/javascript"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id = "mainbody">
+        <div>
+            <input type="text" id = "input" value="0">
+        </div>
+        <div class="but">
+            <div class="row">
+                <button id="clr" onclick="clearDisplay()">AC</button>
+            </div>
+            <div class="row">
+    
+                <button id="block1" onclick="clk(1)">1</button>
+                <button id="block1" onclick="clk(2)">2</button>
+                <button id="block1" onclick="clk(3)">3</button>
+                <button id="block1" onclick="clk('+')">+</button>
+    
+            </div>
+            <div class="row">
+    
+                <button id="block1" onclick="clk(4)">4</button>
+                <button id="block1" onclick="clk(5)">5</button>
+                <button id="block1" onclick="clk(6)">6</button>
+                <button id="block1" onclick="clk('-')">-</button>
+    
+            </div>
+            <div class="row">
+    
+                <button id="block1" onclick="clk(7)">7</button>
+                <button id="block1" onclick="clk(8)">8</button>
+                <button id="block1" onclick="clk(9)">9</button>
+                <button id="block1" onclick="clk('*')">*</button>
+    
+            </div>
+            <div class="row">
+    
+                <button id="block1" onclick="clk('.')">.</button>
+                <button id="block1" onclick="clk(0)">0</button>
+                <button id="block1" onclick="equal('=')">=</button>
+                <button id="block1" onclick="clk('/')">/</button>
+    
+            </div>
+    
+        </div>
+    </div>
+    
+</body>
+</html>
