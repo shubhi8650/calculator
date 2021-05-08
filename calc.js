@@ -11,3 +11,4 @@ function equal(){
     var result = eval(text);
     document.getElementById('input').value = result;
 }
+//this is just try git
